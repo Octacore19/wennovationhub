@@ -174,6 +174,24 @@ function clientSlider () {
   }
 }
 
+function clientSlider () {
+  var cSldier = $(".location-slider");
+  if(cSldier.length) {
+      cSldier.owlCarousel({
+        animateOut: 'slideOutLeft',
+        loop:true,
+        nav:false,
+        navText:false,
+        dots:false,
+        autoplay:true,
+        autoplayTimeout:7000,
+        autoplaySpeed:10000,
+        lazyLoad:true,
+        items:2,
+    })
+  }
+}
+
 
 // Partner Logo Footer 
 function partnersLogo () {

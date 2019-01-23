@@ -163,7 +163,8 @@ animation-delay: .8s;
        -o-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
  }
-.tran4s,#focus-section .single-service-content p,
+.tran4s,
+#focus-section .single-service-content p,
 #get-started .single-midpage-content p,
 #project-section .project-gallery .single-img .opacity ul,
 #project-section .project-gallery .single-img .opacity h6 a {
@@ -448,7 +449,7 @@ animation-delay: .8s;
   overflow: hidden;
   height: 300px;
 }
-#focus-section .single-service-content p {
+#focus-section .single-service-content p{
   -webkit-transition-delay: 0.3s; /* Safari */
   transition-delay: 0.3s;
   opacity: 0;
@@ -458,21 +459,21 @@ animation-delay: .8s;
        -o-transform: translate3D(0,200px,0);
           transform: translate3D(0,200px,0);
 }
-#focus-section .single-service-content .icon-heading {
+#focus-section .single-service-content .icon-heading{
   position: absolute;
   width: 100%;
   left:0;
   right: 0;
   top:120px;
 }
-#focus-section .single-service-content .icon-heading .icon {
+#focus-section .single-service-content .icon-heading .icon{
   font-size: 48px;
   color:#808489;
   width: 80px;
   margin: 0 auto;
   background: #232a34;
 }
-#focus-section .single-service-content .icon-heading a {
+#focus-section .single-service-content .icon-heading a{
   color:#808489;
   text-transform: capitalize;
   margin-top: 33px;
@@ -480,7 +481,7 @@ animation-delay: .8s;
 #focus-section .single-service-content:hover .icon-heading {
   top:-10px;
 }
-#focus-section .single-service-content:hover p {
+#focus-section .single-service-content:hover p{
   opacity: 1;
   color: #fff;
   -webkit-transform: translate3D(0,0,0);
@@ -632,14 +633,14 @@ animation-delay: .8s;
   background: url(../images/home/new11.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 .page-middle-banner .opacity {
   background: rgba(0,0,0,0.95);
   text-align: center;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 120px 0;
 }
-.page-middle-banner .opacity h3 {
+.page-middle-banner .opacity h3{
   color: #fff;
   margin-bottom: 25px;
 }
@@ -651,24 +652,65 @@ animation-delay: .8s;
   font-weight: 700;
   border-width:1px;
 }
-.page-middle-banner .opacity .client-slider{
-  margin-top: 25px;
+.page-middle-banner .opacity .location-slider, .location-header{
+  margin-top: 40px;
 }
-.single-midpage-content {
-  text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
+.page-middle-banner .opacity h6{
+  color: #fff;
+  margin-bottom: 25px;
+  text-transform: capitalize;
 }
-.single-midpage-content p{
-  color: #FFBB33;
-  font-size: 15px;
-  line-height: 48px;
-  font-style: italic;
+
+#get-started .opacity{
+  padding-top: 100px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
-.single-midpage-content a{
-  margin-top: 30px;
+#get-started .single-midpage-content {
   text-align: center;
+
+  border:1px solid #808489;
+  margin-bottom: 20px;
+  padding: 118px 23px 65px 23px;
+  overflow: hidden;
+  height: 300px;
 }
+#get-started .single-midpage-content:hover .icon-heading {
+  top:10px;
+}
+#get-started .single-midpage-content .icon-heading a {
+  color:#808489;
+  text-transform: capitalize;
+  margin-top: 33px;
+}
+#get-started .single-midpage-content .icon-heading {
+  position: absolute;
+  width: 100%;
+  left:0;
+  right: 0;
+  top:100px;
+}
+#get-started .single-midpage-content:hover p {
+  opacity: 1;
+  color: #fff;
+  -webkit-transform: translate3D(0,0,0);
+     -moz-transform: translate3D(0,0,0);
+      -ms-transform: translate3D(0,0,0);
+       -o-transform: translate3D(0,0,0);
+          transform: translate3D(0,0,0);
+}
+#get-started .single-midpage-content p{
+  -webkit-transition-delay: 0.3s; /* Safari */
+  transition-delay: 0.3s;
+  opacity: 0;
+  line-height: 40px;
+  -webkit-transform: translate3D(0,200px,0);
+     -moz-transform: translate3D(0,200px,0);
+      -ms-transform: translate3D(0,200px,0);
+       -o-transform: translate3D(0,200px,0);
+          transform: translate3D(0,200px,0);
+}
+
 /*** 
 
 ====================================================================
