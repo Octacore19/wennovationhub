@@ -426,14 +426,14 @@ animation-delay: .8s;
 
  ***/
 #focus-section,
-#form-page {
+.form-page {
   background: #232a34;
   padding-bottom: 80px;
 }
 #focus-section .theme-title h2,
-#form-page .theme-header h2,
+.form-page .theme-header h2,
 #focus-section .theme-title p,
-#form-page .theme-header p {
+.form-page .theme-header p {
   color:#fff;
 }
 #focus-section .row {
@@ -723,10 +723,10 @@ animation-delay: .8s;
   margin: 60px 0 0 0;
 }
 #team-section .team-member-wrapper .float-left {
-  padding: 0 30px ;
+  padding: 0 5px ;
   overflow: hidden;
   margin-bottom: 30px;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 #team-section .team-member-wrapper .single-team-member,
 #team-section .team-member-wrapper .single-team-member .img {
@@ -735,8 +735,8 @@ animation-delay: .8s;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .img{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 #team-section .team-member-wrapper .single-team-member .img img {
   max-height: 100%;
@@ -1271,24 +1271,24 @@ footer p {
 ====================================================================
 |
 | ***/
-#form-page{
+.form-page{
   margin-top: -50px;
 }
-#form-page .theme-header{
+.form-page .theme-header{
   text-align: center;
 }
-#form-page .theme-header h2{
+.form-page .theme-header h2{
   margin-top: 30px;
   margin-bottom: 30px;
 }
-#form-page .theme-header p{
+.form-page .theme-header p{
   margin-bottom: 80px;
 }
-#form-page .single-theme-content .hub-content{
+.form-page .single-theme-content .hub-content{
   top: 70px;
   text-align: justify;
 }
-#form-page .single-theme-content{
+.form-page .single-theme-content{
   border:1px solid #FFBB33;
   padding: 30px;
   position: relative;
@@ -1297,18 +1297,15 @@ footer p {
   margin-bottom: 80px;
   height: 100%;
 }
-#form-page .single-theme-content p, 
-#form-page .single-theme-content ul li{
+.form-page .single-theme-content p, 
+.form-page .single-theme-content ul li{
   color: #fff;
   font-size: 15px;
   line-height: 40px;
   list-style-type: circle;
 }
-#form-page .single-theme-content a{
+.form-page .single-theme-content a{
   border:1px solid #FFBB33;
   margin-top: 30px;
   color: #fff;
 }
-/* .blog-details-post-wrapper .post-comment form button:hover {
-  background:#fff;
-} */
