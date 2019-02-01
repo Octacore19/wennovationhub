@@ -120,47 +120,46 @@
 				Page middle banner
 			=====================================================
 			-->
-
-			<div class="page-middle-banner" id="get-started">
-				<div class="opacity">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<div class="single-midpage-content" style="margin-right:40px;">								
-								<div class="icon-heading tran3s">
-									<!-- <div class="icon tran3s"><i class="fa fa-cog" aria-hidden="true"></i></div> -->
-									<h6><a href="incubation.html" target="_blank" class="tran3s project-button hvr-bounce-to-right">Apply for Incubation</a></h6>
-								</div>								
-								<p>The Wennovation Hub incubation program is setup to guide early stage entrepreneurs to test and validate their ideas using basic business tools as well as gather their first set of customers and pivot where necessary.</p>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
-
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<div class="single-midpage-content" style="margin-left:40px;">
-								<div class="icon-heading tran3s">
-									<!-- <div class="icon tran3s"><i class="fa fa-cog" aria-hidden="true"></i></div> -->
-									<h6><a href="funding.html" target="_blank" class="tran3s project-button hvr-bounce-to-right">Early Stage Funding</a></h6>
-								</div>
-								<p>Wennovation Hub supports invests in social impact ventures solving the most resilient challenges across Africa through The Afropreneur Fund.</p>
-							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->						
-					</div> <!-- /.row -->
-					<div class="location-header"><h6>Wennovation is located at:</h6></div>
-					<div class="location-slider">
-						<div class="item">						
-							<h6>Lagos (Head Office)</h6>
-							<p>12, Rev'd Ogunbiyi Street, Ikeja G.R.A, Ikeja, Lagos State</p>
-						</div> <!-- /.item -->
-						<div class="item">
-							<h6>Ibadan Office</h6>
-							<p>3rd floor, Alpha & Omega Building, Queen Elizabeth Road II, Mokola Ibadan</p>
-						</div> <!-- /.item -->
-						<div class="item">
-							<h6>Abuja Office</h6>
-							<p>2nd Floor, Plaza B -Bright Star Plaza, 50 Ebitu Ukiwe Street, Jabi, FCT</p>
-						</div> <!-- /.item -->
-					</div> <!-- /.client-slider -->
-				</div> <!-- /.opacity -->
-			</div> <!-- /.page-middle-banner -->
+			<div class="container-fluid">
+				<div class="page-middle-banner" id="get-started">
+					<div class="opacity">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="single-midpage-content">								
+									<div class="icon-heading tran3s">
+										<h6><a href="incubation.html" target="_blank" class="tran3s project-button hvr-bounce-to-right">Apply for Incubation</a></h6>
+									</div>								
+									<p>The Wennovation Hub incubation program is setup to guide early stage entrepreneurs to test and validate their ideas using basic business tools as well as gather their first set of customers and pivot where necessary.</p>
+								</div> <!-- /.single-about-content -->
+							</div> <!-- /.col -->
+	
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="single-midpage-content">
+									<div class="icon-heading tran3s">
+										<h6><a href="funding.html" target="_blank" class="tran3s project-button hvr-bounce-to-right">Early Stage Funding</a></h6>
+									</div>
+									<p>Wennovation Hub supports invests in social impact ventures solving the most resilient challenges across Africa through The Afropreneur Fund.</p>
+								</div> <!-- /.single-about-content -->
+							</div> <!-- /.col -->						
+						</div> <!-- /.row -->
+						<div class="location-header"><h6>Wennovation is located at:</h6></div>
+						<div class="location-slider">
+							<div class="item">						
+								<h6>Lagos (Head Office)</h6>
+								<p>12, Rev'd Ogunbiyi Street, Ikeja G.R.A, Ikeja, Lagos State</p>
+							</div> <!-- /.item -->
+							<div class="item">
+								<h6>Ibadan Office</h6>
+								<p>3rd floor, Alpha & Omega Building, Queen Elizabeth Road II, Mokola Ibadan</p>
+							</div> <!-- /.item -->
+							<div class="item">
+								<h6>Abuja Office</h6>
+								<p>2nd Floor, Plaza B -Bright Star Plaza, 50 Ebitu Ukiwe Street, Jabi, FCT</p>
+							</div> <!-- /.item -->
+						</div> <!-- /.client-slider -->
+					</div> <!-- /.opacity -->
+				</div> <!-- /.page-middle-banner -->
+			</div>
 
 
 	        <!--
@@ -1076,28 +1075,31 @@
 									<h2>Send Message</h2>
 		
 									<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
-										<div class="row">
-											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+										<div class="form-row">
+											<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
 												<div class="single-input">
 													<input type="text" placeholder="First Name*" name="Fname">
 												</div> <!-- /.single-input -->
 											</div>
-											<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
 												<div class="single-input">
 													<input type="text" placeholder="Last Name*" name="Lname">
 												</div> <!-- /.single-input -->
 											</div>
-											<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+											<div class=" form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
 												<div class="single-input">
 													<input type="email" placeholder="Your Email*" name="email">
 												</div> <!-- /.single-input -->
 											</div>
 										</div> <!-- /.row -->
-										<div class="single-input">
-											<input type="text" placeholder="Subject" name="sub">
-										</div> <!-- /.single-input -->
-										<textarea placeholder="Write Message" name="message"></textarea>
-		
+										<div class="form-group">
+											<div class="single-input">
+												<input type="text" placeholder="Subject" name="sub">
+											</div> <!-- /.single-input -->
+										</div>
+										<div class="form-group">
+											<textarea placeholder="Write Message" name="message"></textarea>
+										</div>		
 		
 										<button class="tran3s p-color-bg">Send Message</button>
 									</form>
@@ -1200,9 +1202,6 @@
 		<script type="text/javascript" src="vendor/revolution/revolution.extension.actions.min.js"></script>
 		<script type="text/javascript" src="vendor/revolution/revolution.extension.video.min.js"></script>
 
-		<!-- Google map js -->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=goMap" type="text/javascript"></script> <!-- Gmap Helper -->
-		<script src="vendor/gmaps.min.js"></script>
 		<!-- owl.carousel -->
 		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
 		<!-- mixitUp -->
